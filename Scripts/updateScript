@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "Mise à jour du Raspberry Pi en cours..."
+
+# Mettre à jour la liste des paquets
+sudo apt update && sudo apt upgrade -y
+
+# Nettoyer les paquets inutiles
+sudo apt autoremove -y
+sudo apt autoclean -y
+
+# Mise à jour du firmware
+read -p "Voulez-vous mettre à jour le firmware ? (o/N) " choix
+
+if [[ "$choix" =~ ^[Oo]$ ]]; then
+	echo "Mise à jour du firmware..."
+	sudo rpi-update -y
+else
+	echo "Mise à jour du firmware annulée."
+fi
+
+echo "Mise à jour du Raspberry terminée."
