@@ -8,8 +8,4 @@ Mettre un OS sur son raspberry pi
 
 * Installer [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 * Lancer Raspberry Pi Imager
-
-1. Choisir le modèle du RPi
-2. 
-
-  
+* Choisir le modèle du RPi, l'OS, l'emplacement mémoire  
