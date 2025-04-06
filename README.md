@@ -16,3 +16,5 @@ Pour le moment, il n'y a qu'un script pour automatiser les mises à jour.
 
 * Utiliser SSH et Vscode pour se connecter à son raspberry pi ->
 [Tuto VSCodeRPi](https://github.com/caimath/RaspberryPi/blob/main/Tuto/VsCodeRPi/SSH-VsCode.md)
+
+* Mettre un OS sur son Rpi -> [Tuto MettreOS](https://github.com/caimath/RaspberryPi/blob/main/Tuto/MettreOS/OS.md)
